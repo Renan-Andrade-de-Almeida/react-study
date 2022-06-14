@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const elemento = <h1>Olá React!</h1>;
+import HelloWorld from './HelloWorld';
 
-ReactDOM.render(elemento, document.getElementById('root'));
+
+
+
+ReactDOM.render(<HelloWorld />, document.getElementById('root'));
